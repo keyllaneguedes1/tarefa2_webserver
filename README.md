@@ -13,15 +13,15 @@ Este projeto demonstra como transformar o **Raspberry Pi Pico W** em um **servid
 
 ## 📷 Demonstração
 
-> A placa cria um ponto de acesso Wi-Fi ou se conecta a um roteador, e fornece dados em tempo real no navegador ao acessar o IP local.
+A placa cria um ponto de acesso Wi-Fi ou se conecta a um roteador, e fornece dados em tempo real no navegador ao acessar o IP local.
 
 ## 🧪 Componentes Utilizados
 
-= Raspberry Pi Pico W
-= Joystick analógico (ligado aos pinos ADC 26 e 27)
-= Botão (ligado ao GPIO 5)
-= Sensor de temperatura interno do RP2040
-= Conexão Wi-Fi local
+- Raspberry Pi Pico W
+- Joystick analógico (ligado aos pinos ADC 26 e 27)
+- Botão (ligado ao GPIO 5)
+- Sensor de temperatura interno do RP2040
+- Conexão Wi-Fi local
 
 ## 🧠 Como Funciona
 
@@ -41,21 +41,21 @@ Este projeto demonstra como transformar o **Raspberry Pi Pico W** em um **servid
 📂 Estrutura do Código
 main.c – Código principal em C (bare-metal) com:
 
-= Inicialização de GPIO, ADC e Wi-Fi
-= Leitura de sensores
-= Montagem de resposta HTTP com JSON
-= Callback TCP para servir os dados
+- Inicialização de GPIO, ADC e Wi-Fi
+- Leitura de sensores
+- Montagem de resposta HTTP com JSON
+- Callback TCP para servir os dados
 
 🔧 Configuração
 
-= SDK do Raspberry Pi Pico instalado
-= LWIP habilitado
-= Biblioteca CYW43 para conexão Wi-Fi
-= Compilação com CMake
+- SDK do Raspberry Pi Pico instalado
+- LWIP habilitado
+- Biblioteca CYW43 para conexão Wi-Fi
+- Compilação com CMake
 
 💡 Aplicações
-= Monitoramento embarcado local
-= Prototipagem de dispositivos IoT sem internet
-= Integração com dashboards HTML/JS locais
-= Interface com automação residencial
+- Monitoramento embarcado local
+- Prototipagem de dispositivos IoT sem internet
+- Integração com dashboards HTML/JS locais
+- Interface com automação residencial
 
